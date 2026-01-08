@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000/predict"  # local for now
+API_URL = "https://diabetes-risk-prediction-2.onrender.com/predict"
+  # local for now
 
 st.title("🩺 Diabetes Risk Prediction")
 st.write("Enter patient details to assess diabetes risk")
